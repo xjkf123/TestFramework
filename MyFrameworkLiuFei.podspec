@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
  s.name		= "MyFrameworkLiuFei"
- s.version      = "1.0.2"
+ s.version      = "1.0.3"
  s.summary      = "MyFramework"
  s.description  = <<-DESC
 Mydescription
@@ -18,7 +18,7 @@ Mydescription
 
 
  # s.resources = "Resources/*.png"
- s.source_files = "MyFramework/*.txt"
+ s.source_files = 'MyFramework/*.txt','MyFramework/*.zip'
 
  s.frameworks = 'UIKit','Foundation'
 end
